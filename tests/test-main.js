@@ -10,7 +10,8 @@ for (file in window.__karma__.files) {
     }
 }
 requirejs.config({
-    baseUrl: '/base/myLibrary',  // Karma serves files from /base/<your-base-path>
+    // baseUrl: '/base/myLibrary',  // Karma serves files from /base/<your-base-path>
+    baseUrl: '/base',  // Karma serves files from /base/<your-base-path>
     paths: {
         //.. the paths you have set in your Require Js main.js file
         // eg jquery: "libs/jquery.min"

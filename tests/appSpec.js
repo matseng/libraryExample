@@ -1,4 +1,4 @@
-define(['myLibrary'], function(myLibrary) {
+define(['myLibrary/myLibrary'], function(myLibrary) {
 
   describe('myLibrary modules', function() {
     it('should be able to add, subtract, multiply and divide', function() {
