@@ -1,10 +1,8 @@
-//name of this module is appSpec
-
 define(['myLibrary/myLibrary'], function(myLibrary) {
 
-  describe('myLibrary modules', function() {
+  describe('myLibrary modules again', function() {
     it('should be able to add, subtract, multiply and divide', function() {
-      expect(myLibrary.add(1, 2)).toBe(3);
+      expect(myLibrary.multiply(2, 3)).toBe(6);
     });
   });
 });
